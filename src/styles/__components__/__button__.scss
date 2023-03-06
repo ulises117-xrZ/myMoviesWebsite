@@ -1,0 +1,12 @@
+.__button__{
+    background-color: $primary_color_dark;
+    border: none;
+    font-family: 'Tilt Neon', cursive;
+    padding: 0.5em 2em;
+    border-radius: 7px;
+    width: 50%;
+    &:hover{
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

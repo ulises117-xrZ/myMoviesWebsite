@@ -1,0 +1,39 @@
+{
+  "name": "prueba_tec",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/react-lottie": "^1.2.6",
+    "bootstrap": "^5.2.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-lottie": "^1.2.3",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2",
+    "sweetalert2": "^11.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@types/node-sass": "^4.11.3",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "node-sass": "^8.0.0",
+    "npm": "^9.6.0",
+    "run-all": "^1.0.1",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+.nav_bar{
+    width: 100vw;
+    background-color: $primary_color_dark;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
